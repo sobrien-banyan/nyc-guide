@@ -1,4 +1,28 @@
-# New York City Guide - Django Project
+
+
+#NYC-GUIDE
+
+## Created by 
+Sean Obrien - GITHUB: sobrien-banyan
+ and 
+Valerie Trimble - GITHUB: VWilliams86
+
+### Python3, Html, CSS, Django 
+
+### Estimated Time to Complete
+
+---
+
+### Learning Objectives
+
+Understand how to connect front end and backend of website using Django franeworks. 
+
+---
+
+### Assignment Overview
+
+Follow the instructions belowe as well as '' to complete this CODE.
+
 
 ## To start building the project:
 
@@ -33,3 +57,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 And go to `http://localhost:8000`
+
+---
+
+## Summary
+
+
+1. Clone the repo to your computer
+2. Follow the instructions in ''
+4. `git add`, `git commit`, `git push` your code.
+
