@@ -1,0 +1,12 @@
+<h1>{{ borough | title }}</h1>
+<h1>{{ activity }}</h2>
+
+<ul>
+    {% for place in places %}
+    <li>
+        <a href="{% url 'venue' borough activity place %} "
+            >{{ place|title }}</a
+        >
+    </li>
+    {% endfor %}
+</ul>
