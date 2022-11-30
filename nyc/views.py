@@ -19,7 +19,6 @@ class BoroughView(View):
 
 class ActivityView(View):
     def get(self, request, borough, activity):
-        print(borough, activity)
         return render(
             request=request,
             template_name='activity.html',
@@ -27,13 +26,11 @@ class ActivityView(View):
         )
 
 
-class VenueView(View):
-    class VenueView(View):
-        def get(self, request, borough, activity, venue):
-            print(borough, activity, venue)
-            return render(
-            request=request, 
-            template_name= 'venue.html',
-            context={'borough': borough, 'activity': activity, 'locations': boroughs[borough][activity][venue].keys()},
 
-        )
+class VenueView(View):
+    def get(self, request, borough, activity, venue):
+        return render(
+        request=request, 
+        template_name= 'venue.html',
+        context={'borough': borough, 'activity': activity, 'venue': venue,  'description': boroughs[borough][activity][venue]},
+    )
