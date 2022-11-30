@@ -28,8 +28,11 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+### 4. install django and migrate
+`pip install django` , `python manage.py migrate`
+
 ### 4. Run Django
 ```
 python manage.py runserver
 ```
-And go to `http://localhost:8000`
+And go to `http://localhost:8000` or `http://127.0.0.1:8000/`
