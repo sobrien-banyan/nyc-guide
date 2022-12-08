@@ -1,6 +1,6 @@
 
 
-#NYC-GUIDE
+# NYC-GUIDE
 
 ## Created by 
 Sean Obrien - GITHUB: sobrien-banyan
@@ -66,6 +66,7 @@ And go to `http://localhost:8000` or `http://127.0.0.1:8000/`
 ## Summary
 
 1. Clone the repo to your computer
-2. Follow the instructions in ''
-4. `git add`, `git commit`, `git push` your code.
+2. run `source venv/bin/activate` 
+3. run `pip install -r requirements.txt`
+4. run `python manage.py runserver`
 
